@@ -1,0 +1,11 @@
+commit 14d812e52ee3b7e4c939fa139a33f7946ba0d882 (HEAD -> master)
+Author: Andreev Alexei <ixandycs@gmail.com>
+Date:   Mon Feb 17 02:39:36 2020 +0300
+
+    add status.txt
+
+commit 066d91857879dbaef99b978df7f43284471c8808
+Author: Andreev Alexei <ixandycs@gmail.com>
+Date:   Mon Feb 17 02:22:06 2020 +0300
+
+    add .gitignore

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fb083a4e-77b2-4623-a2e0-6bbca5bfd5b2",
+    "name": "Ursula's Log Cabin",
+    "climate": "TODO",
+    "terrain": "TODO",
+    "surface_water": "40",
+    "residents": [
+      "TODO"
+    ],
+    "films": [
+      "https://ghibliapi.herokuapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+    ],
+    "url": [
+      "https://ghibliapi.herokuapp.com/locations/fb083a4e-77b2-4623-a2e0-6bbca5bfd5b2"
+    ]
+  }
+]

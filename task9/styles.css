@@ -1,0 +1,208 @@
+.container {
+
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.795);
+
+}
+.header {
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 7%;
+  border-bottom-color: rgba(0, 0, 0, 0.596);
+  border-bottom-width: 3px;
+  border-bottom-style: groove;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: rgb(242, 252, 110);
+}
+.main {
+
+  max-width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  width: 100%;
+  border-top-color: rgba(0, 0, 0, 0.596);
+  border-top-width: 3px;
+  border-top-style: groove;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: rgb(242, 252, 110);
+  min-height: 7%;
+}
+.post {
+
+  min-height: min-content;
+  max-height: 250px;
+  border-color: rgba(131, 10, 10, 0.37);
+  border-width: 3px;
+  border-style: double;
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  border-radius: 7px;
+  background-color: rgba(249, 255, 172, 0.836);
+}
+.textAndButtonsImage {
+
+  vertical-align: top;
+  display: inline-flex;
+  flex-direction: column;
+  width:55%;
+  position: relative;
+  margin: 8px;
+  padding: 5px;
+  min-height: fit-content;
+  max-height: 100%;
+}
+.textAndButtons {
+
+  vertical-align: top;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  max-width: 90%;
+  margin: 5px;
+  height: 100%;
+}
+.name-date {
+
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-flex;
+  position: relative;
+  padding: 3px;
+  word-break: initial;
+  min-height: fit-content;
+  height: 70%;
+  margin: 5px;
+  font-family: 'Pacifico', cursive;
+}
+.text {
+
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-flexbox;
+  padding: 3px;
+  word-break: initial;
+  min-height: fit-content;
+  height: 70%;
+  margin: 5px;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.photo {
+
+  padding: 3px;
+  vertical-align: top;
+  display: inline-flex;
+  position: relative;
+  height: auto;
+  width: 40%;
+}
+.post-photo {
+
+  position: relative;
+  border-radius: 7px;
+  margin: 3px;
+  align-self: center;
+  width: 96%;
+}
+.buttons {
+
+  justify-content: space-between;
+  vertical-align: bottom;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  height: 20%;
+  margin: 5px;
+}
+.buttons-h {
+
+  justify-content: space-between;
+  min-width: fit-content;
+  width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  height: 100%;
+  margin: 5px;
+}
+.buttons-f {
+
+  justify-content: space-between; 
+  min-width: fit-content;
+  min-width: 300px;
+  max-width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  height: 100%;
+  margin: 5px;
+}
+.btn {
+  background-color: rgb(242, 252, 110);
+  border: none;
+  color: black;
+  height: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(201, 209, 91);
+}
+.btn-userName {
+  background-color: rgb(242, 252, 110);
+  border: none;
+  color: black;
+  height: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+}
+.btn-userName:hover {
+  background-color: rgb(201, 209, 91);
+}
+.btn-p {
+
+  background-color: rgba(249, 255, 172, 0.0);
+  border: none;
+  color: black;
+  height: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-p:hover {
+  background-color: rgba(148, 151, 104, 0.836);
+}
